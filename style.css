@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Livvic:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap');
+
+body{
+    text-align: center;
+    background: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#header{
+    background-image: url(./1-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 2060;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#quote{
+    height: 150px;
+    background-color: cyan;
+}
+
+#q2{
+    font-family: 'Livvic', sans-serif;
+    font-size:xx-large;
+    font-weight:bold;
+}
+
+#auu{
+    text-align: justify;
+    font-family: 'Old Standard TT', serif;
+    font-weight: bolder;
+    font-size: large;
+}
+
+#button1{
+    background-color: gold;
+        border: solid 5px blue;
+        color: blue;
+        padding: 16px 30px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        cursor: pointer;
+        border-radius: 50px;
+      }
+
+#button1:hover{
+    background-color: blue;
+    border: solid 5px gold;
+    color: gold;
+}     
+
+#fp{
+    width: 450px;
+    height: fit-content;
+    font-family: 'Old Standard TT', serif;
+}
+
+#cp{
+    width: 450px;
+    height: fit-content;
+    font-family: 'Old Standard TT', serif;
+}
+
+#flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#es{
+    width: 450px;
+    height: fit-content; 
+    font-family: 'Old Standard TT', serif;
+}
+
+#fc1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#pa{
+    width: 450px;
+    height: fit-content;  
+    font-family: 'Old Standard TT', serif;
+}
+
+#spm{
+    width: 450px;
+    height: fit-content;  
+    font-family: 'Old Standard TT', serif;
+}
+
+#g{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#g1img{
+    width: 750px;
+    border: solid 5px white;
+}
+
+#gg{
+    display: flex;
+    justify-content: space-between;
+}
+
+#g1{
+    width: min-content;
+}
+
+#kyi{
+   height: 300px;
+}
+
+#ci{
+    height: 300px;
+ }
+
+#omcd{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+#desc{
+    text-align: left;
+    width: 600px;
+}
+
+#button2{
+    background-color: green;
+        border: solid 5px mintcream;
+        color: mintcream;
+        padding: 21px 36px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        cursor: pointer;
+        border-radius: 50px;
+        font-size: larger;
+      }
+
+#button2:hover{
+    background-color: mintcream;
+    border: solid 5px green;
+    color: green;
+} 
+
+#dimg{
+    width: 600px;
+}
+
+#descd{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#button3{
+    background-color: gold;
+        border: solid 5px blue;
+        color: blue;
+        padding: 16px 30px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        cursor: pointer;
+        border-radius: 50px;
+      }
+
+#button3:hover{
+    background-color: blue;
+    border: solid 5px gold;
+    color: gold;
+}  
+
+#button4{
+    background-color: gold;
+        border: solid 5px blue;
+        color: blue;
+        padding: 16px 30px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        cursor: pointer;
+        border-radius: 50px;
+        margin: 5px;
+      }
+
+#button4:hover{
+    background-color: blue;
+    border: solid 5px gold;
+    color: gold;
+}  
+
+#foot{
+    background-image: url(./foot.png);
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: flex-start;
+}
